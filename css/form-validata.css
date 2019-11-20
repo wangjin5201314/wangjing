@@ -1,0 +1,75 @@
+.form-control{
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+.label{
+	float: left;
+    width: 15%;
+    text-align: right;
+    padding: 7px 7px 7px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;   
+}
+.input-help{
+	float: left;
+    text-align: left;
+    padding: 7px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #d1c1ab;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.input{
+	width: 100%;
+    font-size: 14px;
+    padding: 0 10px;
+    border:0;
+    border-bottom: solid 1px #ddd;
+    background:none;
+    line-height: 40px;
+    display: block;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    outline: 0;
+    padding-left: 20px;
+    border-radius: 0;
+}
+.field{
+    position: relative;
+}
+.input:focus{
+	border-color: #00aaee;
+}
+.check-error input,.check-error textarea,.check-error select{
+	border-color: #d1c1ab;
+}
+
+.check-success input,.check-success textarea,.check-success select{
+	border-color: #2c7;
+}
+.button{
+    padding:10px 15px;
+}
+.button{
+    border:solid 1px #ddd;
+    background:transparent;
+    border-radius:4px;
+    font-size:14px;
+    padding:6px 15px;
+    margin:0;
+    display:inline-block;
+    line-height:20px;
+    transition:all 1s cubic-bezier(0.175, 0.885, 0.32, 1) 0s;
+}
+.button:active{
+    background-image:none;
+    outline:0;
+    transition:all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1) 0s;
+}
+.button:hover{
+    transition:all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1) 0s;
+}

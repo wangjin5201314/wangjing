@@ -17,9 +17,7 @@ function blurAdjust1(e) {
         if(result == 'ios') {
             document.activeElement.scrollIntoViewIfNeeded(true);
         }else{
-
             varscrollHeight=document.documentElement.scrollTop||document.body.scrollTop||0;
-
             window.scrollTo(0,Math.max(scrollHeight-1,0));
         }
     }, 100)

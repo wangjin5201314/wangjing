@@ -83,7 +83,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 
-.express-area {
+.express-area dl dtexpress-area {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     background-color: #fff
@@ -97,15 +97,17 @@ a:link, a:visited, a:hover, a:active {
 
 .express-area dl {
     position: relative;
-    color: #4d525d
+    color: #4d525d;
+    border-bottom: 1px solid #ddd;
 }
 
 .express-area dl dt {
     position: absolute;
     top: 0;
     left: 0.4rem;
-    font-size: .14rem;
-    line-height: 0.8rem
+    font-size: 14px;
+    line-height: 0.8rem;
+    color:#bbb;
 }
 
 .express-area dl dd {

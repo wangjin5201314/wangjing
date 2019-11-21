@@ -99,7 +99,6 @@ $(function () {
 			return false;
 		}
 		var params = $formBox.serialize(); //序列化表单的值
-		// console.log(params)
 		$.ajax({
 			url: 'php/form.php?type=insert', //后台处理程序
 			type: 'post',       //数据传送方式
@@ -132,7 +131,6 @@ $(function () {
 			dataType: 'json',   //接受数据格式
 			data: params,       //要传送的数据
 			success: function (data) {
-				console.log(data)
 				if (data.code == 200) {
 					layer.msg(data.msg, { time: 1000 });
 					$formBox1[0].reset();

@@ -27,7 +27,7 @@
                     <img src="images/slide1/shouye-zi.png" alt="">
                 </div>
                 <div class="biaoti ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
-                     swiper-animate-delay="1s">原太原电力高等专科学校计算机工程系校友会<br>原太原电力高等专科学校信息工程系系计算机校友会
+                     swiper-animate-delay="1s">原太原电力高等专科学校计算机工程系校友会<br>原太原电力高等专科学校信息工程系计算机校友会
                 </div>
                 <div class="hezi" style="position: relative;width: 100%;height: 100px;margin-top: 0.4rem">
                     <img class="yingwen ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s"
@@ -35,7 +35,7 @@
                     <div class="yuan ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s"
                          swiper-animate-delay="0.5s"></div>
                 </div>
-                <div class="hezi1" style="position: relative;width: 100%;height: 280px;">
+                <div class="hezi1" style="position: relative;width: 100vw;height: 280px;margin-left:-0.45rem">
                     <img class="door ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1.5s"
                          swiper-animate-delay="0.5s" src="images/slide1/shouye.png" alt="">
                 </div>
@@ -53,7 +53,7 @@
                 <div class="width">
                     <div class="description">
                         <div class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
-                             swiper-animate-delay="0.2s">校友是学校的重要资源和宝贵财富，大家用自己的智慧和汗水，
+                             swiper-animate-delay="0.2s">校友是学校的重要资源和宝贵财富，大家用智慧和汗水，
                         </div>
                         <div class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
                              swiper-animate-delay="0.4s">为行业发展和社会建设做出了积极贡献,
@@ -326,7 +326,7 @@
                       swiper-animate-delay="0.4s" action="javascript:;" id="formBox">
                     <div class="form-control ">
                         <div class="field pointer">
-                            <input type="text " class="input " onclick="sr(this);" onblur="nosr(this)" name="name" data-validata="required:内容必填,chinese:必须是中文" placeholder="姓名 ">
+                            <input type="text " class="input "  name="name" data-validata="required:内容必填,chinese:必须是中文" placeholder="姓名 ">
                         </div>
                         <style>
                             .form .field.pointer.sex:before {
@@ -343,35 +343,34 @@
 
                         <div class="field pointer sex"
                              style="color:#ccc;font-size:14px;border-bottom: 1px solid #ccc;height:0.8rem;">
-                            <span style="vertical-align: 5px">&nbsp; &nbsp; &nbsp;男：</span> <input type="radio" value="男" onclick="sr(this);" onblur="nosr(this)" name="sex" checked
+                            <span style="vertical-align: 5px">&nbsp; &nbsp; &nbsp;男：</span> <input type="radio" value="男"  name="sex" checked
                                                                  style="margin-top: .2rem;width: 0.4rem;height: 0.4rem;">
-                            <span style="vertical-align: 5px">&nbsp; &nbsp; &nbsp;女：</span> <input type="radio" value="女" onclick="sr(this);" onblur="nosr(this)" name="sex" style="margin-top: .2rem;width: 0.4rem;height: 0.4rem;">
+                            <span style="vertical-align: 5px">&nbsp; &nbsp; &nbsp;女：</span> <input type="radio" value="女"  name="sex" style="margin-top: .2rem;width: 0.4rem;height: 0.4rem;">
                         </div>
 
                         <div class="field pointer  ">
-                            <input type="text " class="input " onclick="sr(this);" onblur="nosr(this)" name="minzu" data-validata="required:内容必填,chinese:必须是中文"
+                            <input type="text " class="input "  name="minzu" data-validata="required:内容必填,chinese:必须是中文"
                                    placeholder="民族">
                         </div>
                         <div class="field pointer ">
-                            <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="mobile"
+                            <input type="text " class="input"  name="mobile"
                                    data-validata="required:内容必填,mobile:手机号格式不正确" placeholder="手机号码">
                         </div>
                         <div class="field pointer ">
-                            <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="wchart" placeholder="微信号">
+                            <input type="text " class="input"  name="wchart" placeholder="微信号">
                         </div>
 
                         <div class="field pointer" style="border-bottom: 1px solid #ccc">
                             <div class="field" style="position: relative;" >
-                                <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="wchart" placeholder="微信号" style="visibility: hidden">
+                                <input type="text " class="input"  name="wchart" style="visibility: hidden">
                                 <div style="height:100%;font-size: 14px;color: #ccc;display: inline-block;position: absolute;top: 0.2rem;left: 0">出生日期</div>
-                                <input type="date" class="input" onclick="sr(this);" onblur="nosr(this)" name="birthday" placeholder="出生年月" style="border: none;width: 60%;left: 1.6rem;position: absolute;top:0">
+                                <input type="date" class="input"  name="birthday" placeholder="出生年月" style="border: none;width: 60%;left: 1.6rem;position: absolute;top:0">
                             </div>
-
                         </div>
 
 
                         <div class="field pointer " style="height:100%;">
-                            <select name="mianmao" onclick="sr(this);" onblur="nosr(this)" class="input " id="mianmao"
+                            <select name="mianmao"  class="input " id="mianmao"
                                     style="width: 100%;height: 41px;color: #ccc;font-size: 14px;border: none;border-bottom: 1px solid #ddd;">
                                 <option>群众</option>
                                 <option>党员</option>
@@ -379,7 +378,7 @@
                             </select>
                         </div>
                         <div class="field pointer ">
-                            <select name="Admission" onclick="sr(this);" onblur="nosr(this)" class="input " id="Admission"
+                            <select name="Admission"  class="input " id="Admission"
                                     style="width: 100%;height: 41px;color: #ccc;font-size: 14px;border: none;border-bottom: 1px solid #ddd;">
                                 <option>请选择入学年份</option>
                                 <option>1996</option>
@@ -411,14 +410,14 @@
 
                         <div class="field pointer " style="border-bottom: 1px solid #ccc;position: relative;height:100%;">
                             <div class="field" style="position: relative;" >
-                                <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="wchart" placeholder="微信号" style="visibility: hidden">
+                                <input type="text " class="input"  name="wchart" placeholder="微信号" style="visibility: hidden">
                                 <div style="height:100%;font-size: 14px;color: #ccc;display: inline-block;position: absolute;top: 0.2rem;left: 0">毕业时间</div>
-                                <input type="date" class="input" onclick="sr(this);" onblur="nosr(this)" name="Graduation"  style="border: none;width: 60%;left: 1.6rem;position: absolute;top:0">
+                                <input type="date" class="input"  name="Graduation"  style="border: none;width: 60%;left: 1.6rem;position: absolute;top:0">
                             </div>
 
                         </div>
                         <div class="field pointer">
-                            <select name="major" onclick="sr(this);" onblur="nosr(this)" class="input " id="major"
+                            <select name="major"  class="input " id="major"
                                     style="width: 100%;height: 41px;color: #ccc;font-size: 14px;border: none;border-bottom: 1px solid #ddd;">
                                 <option>请选择专业</option>
                                 <option>计算机科学与技术</option>
@@ -428,7 +427,7 @@
                             </select>
                         </div>
                         <div class="field pointer ">
-                            <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="class" data-validata="required:内容必填"
+                            <input type="text " class="input"  name="class" data-validata="required:内容必填"
                                    placeholder="所在班级">
                         </div>
                     </div>
@@ -450,15 +449,15 @@
             <div class="form-box">
                 <form class="form ani" swiper-animate-effect="fadeInUpBig" swiper-animate-duration="0.5s"
                       swiper-animate-delay="0.4s" action="javascript:;"
-                      id="formBox1">
+                      id="formBox1" name="aa">
                     <div class="field pointer ">
-                        <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="Headmaster" placeholder="班主任">
+                        <input type="text " class="input"  name="Headmaster" placeholder="班主任">
                     </div>
                     <div class="field pointer">
-                        <input type="text " class="input " onclick="sr(this);" onblur="nosr(this)" name="work" placeholder="工作单位 ">
+                        <input type="text " class="input "  name="work" placeholder="工作单位 ">
                     </div>
                     <div class="field pointer ">
-                        <input type="text " class="input " onclick="sr(this);" onblur="nosr(this)" name="Native" placeholder="籍贯">
+                        <input type="text " class="input "  name="Native" placeholder="籍贯">
                     </div>
 
                     <style>
@@ -486,7 +485,7 @@
                                     <a id="expressArea" href="javascript:void(0)">
                                         <dl>
                                             <dt>所在城市：</dt>
-                                            <dd><input type="text" name="Provinces"  onclick="sr(this);" onblur="nosr(this)" style="border: none;" value="省 &gt; 市 &gt; 区/县"><!--省 &gt; 市 &gt; 区/县--></dd>
+                                            <dd><input type="text" name="Provinces"   style="border: none;" value="" placeholder="&nbsp;&nbsp;省 &gt; 市 &gt; 区/县"></dd>
                                         </dl>
                                     </a>
                                 </section>
@@ -511,28 +510,28 @@
 
                     </div>
                     <div class="field pointer ">
-                        <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="duties" placeholder="职务">
+                        <input type="text " class="input"  name="duties" placeholder="职务">
                     </div>
                     <div class="field pointer ">
-                        <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="telephone" placeholder="固定电话">
+                        <input type="text " class="input"  name="telephone" placeholder="固定电话">
                     </div>
                     <div class="field pointer ">
-                        <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="Monitor" placeholder="班长">
+                        <input type="text " class="input"  name="Monitor" placeholder="班长">
                     </div>
                     <div class="field pointer ">
-                        <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="degree" placeholder="学位类别">
+                        <input type="text " class="input"  name="degree" placeholder="学位类别">
                     </div>
                     <div class="field pointer ">
-                        <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="email" placeholder="Email">
+                        <input type="text " class="input"  name="email" placeholder="Email">
                     </div>
                     <div class="field pointer ">
-                        <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="address" placeholder="通讯地址">
+                        <input type="text " class="input"  name="address" placeholder="通讯地址">
                     </div>
                     <div class="field pointer ">
-                        <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="resume" placeholder="工作简历">
+                        <input type="text " class="input"  name="resume" placeholder="工作简历">
                     </div>
                     <div class="field pointer ">
-                        <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="Speciality" placeholder="资源与特长">
+                        <input type="text " class="input"  name="Speciality" placeholder="资源与特长">
                     </div>
                     <div class="form-control ">
                         <div class="field ">
@@ -553,11 +552,11 @@
                  src="images/slide7/school.png"
                  alt="勇攀高峰">
             <div class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0s"
-                 swiper-animate-delay="0.5s" style="text-align: left;color:#fff;font-size: 0.24rem;margin-left: 0.48rem">
+                 swiper-animate-delay="0.5s" style="text-align: left;color:#60513c;font-size: 0.26rem;margin-left: 0.48rem;font-weight: 600">
                 欢迎广大校友，就校友工作的推进、提升献言献策<br>
                 欢迎撰写校园回忆文章投稿
             </div>
-            <img class="tu1" src="images/slide7/about.png" style="width: 2.39rem;height: 1.08rem;margin-left: 0.1rem" alt="">
+            <img class="tu1" src="images/slide7/about.png" style="width: 2.39rem;height: 1.08rem;margin-left: 0.1rem;display: block" alt="">
             <img class="text" src="images/slide7/text.png" alt="">
             <img class="door" src="images/slide7/door.png" alt="">
         </section>
@@ -670,7 +669,7 @@
 
     function blurAdjust(e) {
         setTimeout(() => {
-
+            alert(1)
             // if(document.activeElement.tagName == 'INPUT' || document.activeElement.tagName == 'TEXTAREA') {
             //     return
             // }

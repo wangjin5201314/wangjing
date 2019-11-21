@@ -29,7 +29,7 @@ switch ($type){
         $birthday = $_POST['birthday'];
         $mianmao = $_POST['mianmao'];
         $major=$_POST['major'];
-        if (empty($name)||empty($sex)||empty($mobile)||empty($wchart)||empty($Admission)||empty($Graduation)||empty($class)) {
+        if (empty($name)||empty($sex)||empty($mobile)||empty($Admission)||empty($Graduation)||empty($class)) {
             echo json_encode([
                 'code'=>404,
                 "msg"=>'数据未填写完成'
@@ -73,7 +73,6 @@ switch ($type){
             exit();
         }
         $Headmaster = $_POST['Headmaster'];
-
         $work=$_POST['work'];
         $Native=$_POST['Native'];
         $Provinces=$_POST['Provinces'];
@@ -85,21 +84,27 @@ switch ($type){
         $resume=$_POST['resume'];
         $Speciality=$_POST['Speciality'];
         $degree=$_POST['degree'];
-        $update="update fanyiphone set Headmaster='$Headmaster',work='$work',Native='$Native',Provinces='$Provinces',duties='$duties',telephone='$telephone',Monitor='$Monitor',email='$email',address='$address',resume='$resume',Speciality='$Speciality',degree='$degree' where mobile='$mobile'";
-        $result=$conn->query($update);
-        if($result){
-            echo json_encode([
-                'code'=>200,
-                'msg'=>'信息提交成功'
-            ]);
-        }else{
+        if(empty($Headmaster)&&empty($work)&&empty($Native)&&empty($Provinces)&&empty($duties)&&empty($telephone)&&empty($Monitor)&&empty($email)&&empty($address)&&empty($resume)&&empty($Speciality)&&empty($degree)){
             echo json_encode([
                 'code'=>404,
-                'msg'=>'信息提交失败'.$conn->error
+                'msg'=>'至少填写一项'
             ]);
+        }else{
+            $update="update fanyiphone set Headmaster='$Headmaster',work='$work',Native='$Native',Provinces='$Provinces',duties='$duties',telephone='$telephone',Monitor='$Monitor',email='$email',address='$address',resume='$resume',Speciality='$Speciality',degree='$degree' where mobile='$mobile'";
+            $result=$conn->query($update);
+            if($result){
+                echo json_encode([
+                    'code'=>200,
+                    'msg'=>'信息提交成功'
+                ]);
+            }else{
+                echo json_encode([
+                    'code'=>404,
+                    'msg'=>'信息提交失败'.$conn->error
+                ]);
+            }
         }
         break;
-
 }
 
 

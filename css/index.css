@@ -179,9 +179,8 @@ body,html{
 }
 .swiper-slide1 .door{
     position: absolute;
-    left: -1.3rem;
-    bottom: -0.5rem;
-    width: 120%;
+    bottom: 0rem;
+    width: 100%;
     z-index: 5;
 }
 .swiper-slide1 .yuan{
@@ -338,7 +337,7 @@ body,html{
 
 .common .desc {
     margin: 0 0.17rem;
-    color: #b7a489;
+    color: #6b635a;
     font-size: 0.24rem;
 }
 
@@ -480,13 +479,11 @@ body,html{
     margin-top: 1.11rem;
 }
 .swiper-slide7 .text{
-    width: 6.54rem;
-    height: 5.81rem;
-    margin-left: 0.2rem;
+    width: 6rem;
+    margin-left: 0.4rem;
     position: absolute;
-    left: 0.48rem;
-    bottom: 2.06rem;
-    z-index: 5;
+    z-index: 10;
+    margin-top: 0.3rem;
 }
 .swiper-slide7 .door{
     position: absolute;

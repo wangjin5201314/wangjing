@@ -645,12 +645,12 @@
     var formBox = $(".form-box");
     document.body.addEventListener('focusin',function () {
         //软键盘弹出的事件处理
-        $('body').height(window.innerHeight);
+        // $('body').height(window.innerHeight);
     })
     //
 
     document.body.addEventListener('focusout',function () {
-        $('body').height(window.innerHeight);
+        // $('body').height(window.innerHeight);
         blurAdjust();
     })
 
@@ -662,7 +662,7 @@
 
     $("input,select").blur(function() {
         blurAdjust();
-        $('body').height(window.innerHeight);
+        // $('body').height(window.innerHeight);
     });
     // $("input,select").click(function() {
     //     $('body').height(window.innerHeight);

@@ -5,7 +5,7 @@ var expressArea, areaCont, areaList = $("#areaList"), areaTop = areaList.offset(
 
 function blurAdjust1(e) {
     setTimeout(() => {
-       
+
         let result = 'pc';
         if(/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) { //判断iPhone|iPad|iPod|iOS
             result = 'ios'

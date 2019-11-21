@@ -452,7 +452,7 @@
                       swiper-animate-delay="0.4s" action="javascript:;"
                       id="formBox1" name="aa">
                     <div class="field pointer ">
-                        <input type="text " class="input"  name="Headmaster" placeholder="班主任">
+                        <input type="text " class="input" onclick="sr(this);" onblur="nosr(this)" name="Headmaster" placeholder="班主任">
                     </div>
                     <div class="field pointer">
                         <input type="text " class="input "  name="work" placeholder="工作单位 ">
@@ -476,9 +476,6 @@
                     </style>
                     <div class="field pointer city">
                         <!--<input type="text " class="input" name="Provinces" placeholder="所在省市">-->
-
-
-
 
                         <div class="iphone">
                             <div class="browser">
@@ -505,9 +502,6 @@
                                 <div id="areaMask" class="mask" style="display: none;"></div>
                             </div>
                         </div>
-
-
-
 
                     </div>
                     <div class="field pointer ">
@@ -639,7 +633,6 @@
         timer1 = setInterval(function() {
             obj.scrollIntoView(false);
         }, 100);
-
     }
     function nosr(obj) {
         clearInterval(timer1);

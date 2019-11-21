@@ -326,7 +326,7 @@
                       swiper-animate-delay="0.4s" action="javascript:;" id="formBox">
                     <div class="form-control ">
                         <div class="field pointer">
-                            <input type="text " class="input "  name="name" data-validata="required:内容必填,chinese:必须是中文" placeholder="姓名 ">
+                            <input type="text " class="input "  id="username" name="name" data-validata="required:内容必填,chinese:必须是中文" placeholder="姓名 ">
                         </div>
                         <style>
                             .form .field.pointer.sex:before {
@@ -649,7 +649,7 @@
     })
     //
     document.body.addEventListener('focusout',function () {
-        $(".form-box").find(".input:first-child").focus().css("color",'red');
+        $("#username").focus().css("color",'red');
         blurAdjust();
     })
 

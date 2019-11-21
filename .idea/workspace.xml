@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c8534a9-24c6-4e77-ab23-89f6a45db06a" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/jquery.area.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.area.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/jquery.area.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="542">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -61,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="679" column="16" selection-start-line="679" selection-start-column="16" selection-end-line="679" selection-end-column="30" />
+            <state relative-caret-position="550">
+              <caret line="677" column="20" selection-start-line="677" selection-start-column="20" selection-end-line="677" selection-end-column="20" />
               <folding>
                 <element signature="n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -190,6 +189,7 @@
       <find>.express-area dl dt</find>
       <find>.express-area dl</find>
       <find>onclick=&quot;sr(this);&quot; onblur=&quot;nosr(this)&quot;</find>
+      <find>alert</find>
     </findStrings>
     <replaceStrings>
       <replace>0.25</replace>
@@ -209,8 +209,8 @@
         <option value="$PROJECT_DIR$/php/form.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/js/jquery.area.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/jquery.area.js" />
       </list>
     </option>
   </component>
@@ -287,21 +287,7 @@
       <workItem from="1574169624607" duration="625000" />
       <workItem from="1574172408815" duration="19251000" />
       <workItem from="1574234177067" duration="35220000" />
-      <workItem from="1574295857282" duration="9659000" />
-    </task>
-    <task id="LOCAL-00034" summary="777">
-      <created>1574221844900</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1574221844900</updated>
-    </task>
-    <task id="LOCAL-00035" summary="777">
-      <created>1574221917326</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1574221917326</updated>
+      <workItem from="1574295857282" duration="10019000" />
     </task>
     <task id="LOCAL-00036" summary="777">
       <created>1574222055130</created>
@@ -632,11 +618,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574305309888</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="19000">
+      <created>1574305602100</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1574305602100</updated>
+    </task>
+    <task id="LOCAL-00084" summary="19000">
+      <created>1574305865887</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1574305865887</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64755000" />
+    <option name="totallyTimeSpent" value="65115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -761,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="679" column="16" selection-start-line="679" selection-start-column="16" selection-end-line="679" selection-end-column="30" />
+        <state relative-caret-position="550">
+          <caret line="677" column="20" selection-start-line="677" selection-start-column="20" selection-end-line="677" selection-end-column="20" />
           <folding>
             <element signature="n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -843,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.area.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="542">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>

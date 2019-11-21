@@ -1,6 +1,7 @@
 /* 公共样式 */
 body,html{
     height: 100vh;
+    overflow: hidden;
 }
 .description{
     width: 94%;

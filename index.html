@@ -364,7 +364,7 @@
                             <div class="field" style="position: relative;" >
                                 <input type="text " class="input"  name="wchart" style="visibility: hidden">
                                 <div style="height:100%;font-size: 14px;color: #ccc;display: inline-block;position: absolute;top: 0.2rem;left: 0">出生日期</div>
-                                <input type="date" class="input" onclick="sr(this);" onblur="nosr(this)" name="birthday" placeholder="出生年月" style="border: none;width: 60%;left: 1.6rem;position: absolute;top:0">
+                                <input type="date" class="input" name="birthday" placeholder="出生年月" style="border: none;width: 60%;left: 1.6rem;position: absolute;top:0">
                             </div>
                         </div>
 
@@ -372,7 +372,6 @@
                         <div class="field pointer " style="height:100%;">
                             <select name="mianmao"  class="input " id="mianmao"
                                     style="width: 100%;height: 41px;color: #ccc;font-size: 14px;border: none;border-bottom: 1px solid #ddd;">
-                                <option>政治面貌</option>
                                 <option>群众</option>
                                 <option>党员</option>
                                 <option>其他</option>
@@ -667,7 +666,7 @@
     });
 
     function blurAdjust(e) {
-        setTimeout(() => {
+       // setTimeout(() => {
 
             let result = 'pc';
             if(/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) { //判断iPhone|iPad|iPod|iOS
@@ -683,7 +682,7 @@
 
                 window.scrollTo(0,Math.max(scrollHeight-1,0));
             }
-        }, 100)
+       // }, 100)
     }
 
 

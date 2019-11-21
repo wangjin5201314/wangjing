@@ -661,6 +661,9 @@
     $("input,select").blur(function() {
         blurAdjust();
     });
+    $("input,select").click(function() {
+        blurAdjust();
+    });
 
     function blurAdjust(e) {
         setTimeout(() => {

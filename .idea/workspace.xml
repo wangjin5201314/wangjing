@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c8534a9-24c6-4e77-ab23-89f6a45db06a" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="649" column="4" selection-start-line="649" selection-start-column="4" selection-end-line="651" selection-end-column="6" />
+            <state relative-caret-position="625">
+              <caret line="651" column="29" selection-start-line="651" selection-start-column="29" selection-end-line="651" selection-end-column="29" />
               <folding>
                 <element signature="n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -288,14 +286,7 @@
       <workItem from="1574169624607" duration="625000" />
       <workItem from="1574172408815" duration="19251000" />
       <workItem from="1574234177067" duration="35220000" />
-      <workItem from="1574295857282" duration="13536000" />
-    </task>
-    <task id="LOCAL-00043" summary="777">
-      <created>1574223704596</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1574223704596</updated>
+      <workItem from="1574295857282" duration="13750000" />
     </task>
     <task id="LOCAL-00044" summary="777">
       <created>1574223773998</created>
@@ -633,17 +624,24 @@
       <option name="project" value="LOCAL" />
       <updated>1574308791245</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="19000">
+      <created>1574309547321</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1574309547321</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68632000" />
+    <option name="totallyTimeSpent" value="68846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -769,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="649" column="4" selection-start-line="649" selection-start-column="4" selection-end-line="651" selection-end-column="6" />
+        <state relative-caret-position="625">
+          <caret line="651" column="29" selection-start-line="651" selection-start-column="29" selection-end-line="651" selection-end-column="29" />
           <folding>
             <element signature="n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />

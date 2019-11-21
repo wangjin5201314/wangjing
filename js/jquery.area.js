@@ -16,7 +16,7 @@ function blurAdjust1(e) {
             document.activeElement.scrollIntoViewIfNeeded(true);
         }else{
             console.log(2)
-            varscrollHeight=document.documentElement.scrollTop||document.body.scrollTop||0;
+            var scrollHeight=document.documentElement.scrollTop||document.body.scrollTop||0;
             window.scrollTo(0,Math.max(scrollHeight-1,0));
         }
     }, 100)

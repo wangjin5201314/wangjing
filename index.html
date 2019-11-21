@@ -648,8 +648,9 @@
         $('body').height(window.innerHeight);
     })
     //
+
     document.body.addEventListener('focusout',function () {
-        $("#username").focus().css("color",'red');
+        $('body').height(window.innerHeight);
         blurAdjust();
     })
 
@@ -661,6 +662,7 @@
 
     $("input,select").blur(function() {
         blurAdjust();
+        $('body').height(window.innerHeight);
     });
     // $("input,select").click(function() {
     //     $('body').height(window.innerHeight);

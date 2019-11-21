@@ -649,7 +649,7 @@
     })
     //
     document.body.addEventListener('focusout',function () {
-        console.log('focusout')
+        $(".form-box").find("input").focus();
         blurAdjust();
     })
 

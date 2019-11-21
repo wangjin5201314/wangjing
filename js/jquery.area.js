@@ -5,9 +5,7 @@ var expressArea, areaCont, areaList = $("#areaList"), areaTop = areaList.offset(
 
 function blurAdjust1(e) {
     setTimeout(() => {
-        if(document.activeElement.tagName == 'INPUT' || document.activeElement.tagName == 'TEXTAREA') {
-            return
-        }
+       
         let result = 'pc';
         if(/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) { //判断iPhone|iPad|iPod|iOS
             result = 'ios'
@@ -17,6 +15,7 @@ function blurAdjust1(e) {
         if(result == 'ios') {
             document.activeElement.scrollIntoViewIfNeeded(true);
         }else{
+            console.log(2)
             varscrollHeight=document.documentElement.scrollTop||document.body.scrollTop||0;
             window.scrollTo(0,Math.max(scrollHeight-1,0));
         }

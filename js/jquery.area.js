@@ -72,6 +72,7 @@ function selectD(p, c, d) {
     expressArea += district[p][c][d];
     var a =aa.Provinces.value = expressArea;
     $("#expressArea dl dd input").val(a);
+    blurAdjust1()
 }
 
 function clockArea() {

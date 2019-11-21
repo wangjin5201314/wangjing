@@ -223,7 +223,7 @@ body,html{
     border-radius: 8px;
 }
 .swiper-slide2 .width .content{
-    width: 94%;
+    width: 100%;
     color: #6b635a;
     font-size: 0.25rem;
     font-weight: 500;
@@ -265,7 +265,7 @@ body,html{
     left: 0;
 }
 .swiper-slide3 .description{
-    width: 94%;
+    width: 100%;
     margin:0 auto 0.3rem;
     color: #6b635a;
     font-size: 0.24rem;
@@ -279,10 +279,10 @@ body,html{
     border-radius: 8px;
 }
 .swiper-slide3 .content{
-    width: 94%;
+    width: 100%;
     margin-left: 0.2rem;
     color: #6b635a;
-    font-size: 0.25rem;
+    font-size: 0.24rem;
     font-weight: 500;
     line-height: 0.36rem;
     margin-top: 0.36rem;
@@ -302,7 +302,7 @@ body,html{
     left: 0;
 }
 .swiper-slide4 .description{
-    width: 94%;
+    width: 100%;
     margin:0 auto 0.25rem;
     color: #6b635a;
     font-size: 0.24rem;
@@ -316,7 +316,7 @@ body,html{
     border-radius: 8px;
 }
 .swiper-slide4 .content{
-    width: 94%;
+    width: 100%;
     margin-left: 0.2rem;
     color: #6b635a;
     font-size: 0.24rem;
@@ -337,9 +337,10 @@ body,html{
 }
 
 .common .desc {
-    margin: 0 0.17rem;
+    /*margin: 0 0.17rem;*/
     color: #6b635a;
     font-size: 0.24rem;
+    text-align: left;
 }
 
 .common .edit {

@@ -647,9 +647,9 @@
         $('body').height(window.innerHeight);
     })
     //
-    // document.body.addEventListener('focusout',function () {
-    //     blurAdjust();
-    // })
+    document.body.addEventListener('focusout',function () {
+        blurAdjust();
+    })
 
 
 
@@ -660,10 +660,10 @@
     $("input,select").blur(function() {
         blurAdjust();
     });
-    $("input,select").click(function() {
-        $('body').height(window.innerHeight);
-        blurAdjust();
-    });
+    // $("input,select").click(function() {
+    //     $('body').height(window.innerHeight);
+    //     blurAdjust();
+    // });
 
     function blurAdjust(e) {
        // setTimeout(() => {

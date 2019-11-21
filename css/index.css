@@ -492,7 +492,9 @@ body,html{
     width: 100%;
     z-index: 1;
 }
-
+.form-box{
+    position: fixed;
+}
 /*  Slide7 高薪就业2 结束 */
 
 /*  Slide8 联系我们 开始 */

@@ -41,9 +41,6 @@ body,html{
 .swiper-container .swiper-slide .blue{
     color:#5abcfe;
 }
-.swiper-slide1{
-    background: #3f9fe3 url(../images/slide1/bg.png) no-repeat center top/100% auto;
-}
 .swiper-slide1 .logo,.swiper-slide8 .logo{
     height: .55rem;
     margin: 8vh 0 0 1vh;

@@ -633,6 +633,7 @@
         timer1 = setInterval(function() {
             obj.scrollIntoView(false);
         }, 100);
+        alert(3);
     }
     function nosr(obj) {
         clearInterval(timer1);
@@ -663,7 +664,7 @@
 
     function blurAdjust(e) {
         setTimeout(() => {
-            alert(1)
+            alert(1);
             // if(document.activeElement.tagName == 'INPUT' || document.activeElement.tagName == 'TEXTAREA') {
             //     return
             // }
@@ -676,7 +677,7 @@
             if(result == 'ios') {
                 document.activeElement.scrollIntoViewIfNeeded(true);
             }else{
-                alert(1)
+                alert(2);
                 varscrollHeight=document.documentElement.scrollTop||document.body.scrollTop||0;
 
                 window.scrollTo(0,Math.max(scrollHeight-1,0));
